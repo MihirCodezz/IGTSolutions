@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class Demo2
+{
+	public static void main(String args[])
+	{
+		Scanner sc= new Scanner(System.in)
+
+		System.out.print("Enter the name?");
+		String name=sc.next();
+
+		System.out.print("Enter the Id");
+		String uid=sc.nextInt();
+	
+		System.out.println("ID  : "+uid);	
+		System.out.println("Name   :+name");
+	}
+}
