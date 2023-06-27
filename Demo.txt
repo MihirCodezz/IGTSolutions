@@ -1,0 +1,12 @@
+Java								Python
+
+Programming							Scripting
+
+compile run 							no compile run
+
+slower								faster
+
+high security level can achieve in less no of lines		same security level can be achieve with large no of lines of code
+
+used in baking applications 					used in performace efficient tasks
+
