@@ -1,56 +1,8 @@
 # IGTSolutions
-```json
+# <JAVA TRAINING>
 
-    {
-     "step1":{
-             "fields":[
-                 {
-                     "key":"name",
-                     "type":"edit_text",
-                     "hint":"Enter Your Name"
-                 },
-                 {
-                     "key":"email",
-                     "type":"edit_text",
-                     "hint":"Enter email address"
-                 },
-                 {
-                     "key":"labelBackgroundImage",
-                     "type":"label",
-                     "text":"Choose Background Image"
-                 },
-                 {
-                     "key":"chooseImage",
-                     "type":"choose_image",
-                     "uploadButtonText":"Choose"
-                 },
-                 {
-                     "key":"getAddressFromLatlng",
-                     "type":"gps",
-                     "options":[
-                        {
-                          "val":"2.334,3.444"
-                        }
-                     ]
-                 },
-                 {
-                     "key":"showDropDown",
-                     "type":"spinner",
-                     "options":[
-                        {
-                         "default":true,
-                         "displayText":"Delhi"
-                        },
-                         {
-                         "default":false,
-                         "displayText":"Mumbai"
-                        }
-                     ]
-                 }
-             ],
-             "title":"Step 1",
-             "next":"step2"
-         }
-    }
-  ```
+## Description
+
+This course includes hands-on practice and will give you a solid knowledge of the Java language. After completing this course, you will be able to identify Java's benefits, program in basic Java syntax using Java data types, and incorporate branches and loops.
+
 * IGT SOLUTIONS * JAVA TRAINING
