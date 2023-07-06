@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function cal(value)
+        {
+                a= parseInt(document.f2.a.value);
+           b= parseInt(document.f2.b.value);
+            if(value=="ADD"){
+                result= a+ b; 
+                 document.f2.sum.value=result;
+            }
+            else if(value=="SUB"){
+                     result= a- b; 
+            document.f2.sum.value=result;
+            }
+        }
+    </script>
+</head>
+<body bgcolor="yellow">
+   <marquee onmouseover="stop()" onmouseout="start()"> <h1> Hi Welcome to Web Application </h1></marquee>
+    <div style="text-align: center;">  
+       <form name="f2">
+       A value:<input type="text" name="a"><br>
+       B value  :<input type="text" name="b"><br>
+       Result <input type="text" name="sum"><br>
+        <input type="button" value="ADD" onclick="cal(value)">
+        <input type="button" value="SUB" onclick="cal(value)">
+        <input type="button" value="MUL" onclick="cal(value)">
+        <input type="button" value="DIV" onclick="cal(value)">
+  </form>
+    </div>
+</body>
+</html>

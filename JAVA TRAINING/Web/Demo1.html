@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function abc(){
+           firstname= document.f1.fn.value;
+           lastname= document.f1.ln.value;
+           fullname= firstname+" "+ lastname; 
+            //alert("Hi "+fullname)
+            document.f1.full.value=fullname;
+        }
+        function add()
+        {
+            a= parseInt(document.f2.a.value);
+           b= parseInt(document.f2.b.value)
+           result= a+ b; 
+            //alert('Hi ;+fullname)
+            document.f2.sum.value=result;
+        }
+    </script>
+</head>
+<body bgcolor="yellow">
+   <marquee onmouseover="stop()" onmouseout="start()"> <h1> Hi Welcome to Web Application </h1></marquee>
+    <div style="text-align: center;">  
+       <form name="f1">
+             First Name :<input type="text" name="fn"><br>
+             Last PAss :<input type="text" name="ln"><br>
+            Full name :<input type="text" name="full"><br>
+             <input type="button" value="LOGIN" onclick="abc()">
+       </form>
+       <form name="f2">
+       A value:<input type="text" name="a"><br>
+       B value  :<input type="text" name="b"><br>
+       Result <input type="text" name="sum"><br>
+        <input type="button" value="ADD" onclick="add()">
+        <input type="button" value="SUB" onclick="sub()">
+        <input type="button" value="Mul" onclick="mul()">
+        <input type="button" value="Div" onclick="div()">
+  </form>
+    </div>
+</body>
+</html>

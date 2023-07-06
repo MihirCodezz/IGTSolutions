@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>DOCUMENT</title>
+    <script>
+        function abc(){
+            firstname= document.f1.fn.value;
+            lastname= document.f1.ln.value;
+            fullname= firstname +lastname;
+            //alert("Hi "+fullname)
+            document.f1.full.value=fullname;
+        }
+
+    </script>
+</head>
+    <body bgcolor="yellow">
+        <marquee onmouseover="stop()" onmouseout="start()">
+        <h1>HI WELCOME TO MY WEB APPLICATION</h1></marquee>
+        <div style="text-align: center;">
+        
+            <form name="f1">
+                First Name :<input type="text" name="fn"><br>
+                Last Name :<input type="text" name="ln"><br>
+                Full Name :<input type="text" name="full"><br>
+
+                <input type="button" value="LOGIN" onclick="abc()">
+            </form>
+        </div>
+
+    </body>
+
+    </html>

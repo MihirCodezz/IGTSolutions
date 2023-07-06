@@ -1,0 +1,556 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hibernate.cfg.xml
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory name="domo">
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.password">root</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/sonoo</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+         <property name="hbm2ddl.auto">update</property>
+        <property name="show_sql">true</property>
+        <mapping class="com.Product"/>
+    </session-factory>
+</hibernate-configuration>
+
+====================================================================
+hibernate.hbm.xml
+
+
+
+
+
+
+
+===========================
+C ++ : 
+	OOPL
+	Secutity...
+	Platform Dependent 
+	MultyThreading 
+	Rich lib Support 
+	Open Source 
+	Scalable and Inbuilt Memory managent 
+Java 	
+	OOPL
+	Secutity...
+	Platform independent 
+	MultyThreading 
+	Rich lib Support 
+	Open Source 
+	Scalable and Inbuilt Memory managent 
+
+
+Python ? 
+	OOPL ? yes 
+	Security ..? 
+	Platform Indenett ?
+	MultyThreading : yes 
+	Rich lib ?  yes 
+	Opne Source ? yes	
+	Scablabel 
+
+C# .net : 
+	
+
+C 
+C++
+Python 			
+java	
+.net 
+php 
+asp
+jsp 
+cobal 
+pascasl 
+angualr 
+node js
+exxpress js
+vew js
+venila Js 
+backbon js 
+react js 
+unix 
+web 
+html 
+css 
+js 
+			20 : 
+etc..........................!
+
+		total no prog: 700 + programing   
+
+		
+
+Binary lang : machin lang 
+Assembly lev Lang
+
+cobal ,
+pascal ...
+
+
+			Basic level lang ,....! B prog 
+			Platfom Depedent 	Independent 
+C prog			----? C ++		----> C#		 
+high 			Sopl+ Oopl  		----> java
+Sopl  popl 					----> Python 
+
+
+
+C# 		: paid 			
+java 		: open source 
+Python 		: open Source 
+
+========================================
+
+java 		: open source 
+Python 		: open Source 
+
+
+	java 						Python 
+================================================================================================
+	OOPL						OOPL 
+
+	Programing lang 				Scripting lang
+
+
+	Comiple						no compiler  
+		run  						directly run 
+
+
+	slow 						fast
+
+	Security : high					secutiry 
+	10 line 					100 lines 
+
+	Bank app : 
+		java 					Performance lel 
+								robotices / AI/ML 
+
+	Hign Security 
+	oopl 
+
+
+		
+		avoid the ready made methods 
+
+
+1) Find the max of 2 number
+					max(a,b);
+2) WAP to find a max of 3 number 
+3) array 
+	arr=[1,4,2,5,67,3,6,3,56,6,88] : max in array 
+				arr.sort();
+4) Min in array
+5) Sort based on asc + decendng order
+
+
+6 ) Java Program to count the total number of characters in a string
+
+7 ) Java program to find the duplicate characters in a string
+
+
+
+
+
+
+
+
+
+
+
+
+
+=================================OOPS ( Object orineted programing lang )===========================
+
+
+Class  : collection of objects 
+Object :  instance of class 
+
+
+Inheritance : 
+		aquri the proprty from prnt to child 
+		inherit the proprty from parent to child 
+
+
+		parent---- > Super class -----> Base class  
+		child ---- > Sub classs-------> derived class 
+
+		advantage ? 
+			we can core reusable ....!
+			we can reduce the code length and complexity 
+			incress the performace of application 
+
+		
+			
+		Types of Inheritance : 
+			Single 
+			multilevel 
+			multiple 
+			hybred 
+			hyrichy
+	
+		
+		class A to class B how to aquri the property ? 
+				useing extend key work 
+				this keyword 
+				super keyword 
+				
+
+
+=======================================================
+		Polymorphism
+what is polymorphiss? 
+
+		*) ablity to take as multiple forms 
+		*)  single name but different behivior 
+		ex : 
+			draw :
+				void draw(int r)
+				{
+					2 * PI * r * r; 
+				}
+				void draw(int l, int b)
+				{
+					int result= l* b;
+				}
+			boy :
+				school : student
+				Home for parent : child 
+				home for sibling : brother 
+				playgroud 	: player 
+
+
+ 
+Compile time polymarophis =========== > static poly
+		Over loding : 
+				types : 
+					constructor over loding : 
+							what is constror over logding ? 
+							what is the use of it ? 
+							when to  use it 
+							where to use it 
+					method over loding
+Run time polymarphise ================> Dynimic 
+		over riding :
+				types : 
+					constructor over riding 				
+					method over riding 
+
+======================================= Abstraction ========================================
+
+
+Hide the implementation and just show the funcunality to the end use 
+
+
+Hide the implementation
+
+		how to hide   ?
+				by make method as Abstract 
+				
+				if method is abstract the class must be abstract 
+
+				if class is abstract we cant able to create a object of abstract class
+
+
+				then hiow or where to provide the logic or body for the method ?
+			
+				in child class we can provide thebody....!
+				
+				
+practicel ?
+
+
+
+ORM L object relation mapppring toool 
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+Quickly revise all the topics ....!
+
+Servlet 
+
+			Servlet : server side coding lang which is used to cread web application 
+			HttpServlet 
+
+			HttpServletRequest
+			httpServeltRespone
+
+
+			request.Paramaneter
+			respoce ,setCOntectType;
+			printWriter
+
+			RequestDisplatiecs 
+			Web.xml
+			ServlertConfig 
+			ServletCOntext
+	DOGet / DoPost 
+	LifyCyleOF Servlet 
+
+JSP : 
+	java Server Page
+
+				Tags : 
+					Declaration tag : <%! %>
+					Screplet tag 	: <%  %>
+
+					Expression tag 	:<%=  %>
+					out.println("");
+
+			Inbuil objectsin jsp 
+
+				request 
+				responce 
+				out
+				config 
+				context
+				exception 
+
+			RequestDipatcher 
+						jsp include
+						jsp forward
+			doget do post 
+			
+			jsp life cycle 
+			
+
+	
+
+							USing Servlet 
+
+
+						JSP : Bank project
+
+Core java
+JDBC
+Servlet
+JSP 
+html 
+css
+bootsracp 
+
+
+SQL : 
+	basic idea about the database 
+	
+
+=========================
+
+constrients 
+			primary key 
+			not null 
+			check 
+			default 
+			uniquee
+			forign key 
+
+ create table employee(ID number(5), NAME varchar(10) ,AGE number(3), SALARY number(7), DESIG varchar(10),gender char(5));
+ insert into employee values(100,'Bharath',-34,00000,'Tester','Male');
+select * from employee;
+
+With COnstriests : 
+
+create table employee(ID number(5) primary key, NAME varchar(10)  not null,AGE number(3) check (age > 18 ), SALARY number(7) check (salary > 25000), DESIG varchar(10) default 'GET', gender char(5),PAN varchar(10) unique);
+
+insert into employee(id,name,age,salary,gender,pan) values(700,'Abi',25,50000,'M','ABC829');
+
+insert into employee values(500,'Charan',19,25001,'Tester','M','ABC127');
+=====================================================================================================================
+
+	data types 
+			Number 
+			varchar 
+			char 
+			date 
+			boolean
+=======================================================================================================
+	DDL . DML . DRL ,DCL , TCL 
+
+DDL :Data Defination lang 
+	Drop Rename  Create Alter Truncate  
+DML : Datas Manupulation lang 
+	Update Insert Delete 
+DRL : Data Retrivel lang 
+	select
+DCL : Data Control lang 
+	Gront 
+	revoke 
+
+TCL :Transection control  lang
+	commit 
+	rolback 
+
+
+ ================================
+User :
+	create ing user is called as Scheam
+========================================================================================
+	joins 
+		Inner joion 
+		full jiin 
+		right join
+		left jooin
+=============================================================
+
+operators 
+		like 
+		order 
+		and 
+		or 
+		not 
+select * from employee where name like 'M%';
+select * from employee order by salary;
+SQL> select * from employee order by salary desc;
+select * from employee  where salary> 40000 and desig='Tester';
+select * from employee  where salary> 40000 or desig='Tester';
+
+====================================================
+	
+
+	Views
+
+ create view igt_emp_view as select id, name ,desig from employee;
+
+View created.
+
+SQL> select * from  igt_emp_view;
+
+        ID NAME       DESIG
+---------- ---------- ----------
+       200 Abi        Tester
+       300 Charan     Tester
+       500 Charan     Tester
+       600 Abi
+       700 Abi        GET
+       540 Charan     Tester
+       990 Abi        CEO
+       910 Manoj      Manager
+
+8 rows selected.
+
+SQL>
+
+===============================================
+Sequences 
+
+
+create sequence igt_emp start with 1 maxvalue 10 ;
+insert into emp1 values(igt_emp.nextval,'ABI',35);
+
+============================================================
+Single row function'
+	upper 
+	lower 
+	flore
+	ciel
+	
+Aggreation funtions 
+	min 
+	max
+	avg
+	sum 
+	count 
+	
+============================================================================
+Core java	
+JDBC
+Servlet
+JSP
+SQL
+Hibernate
+ 
+html 
+cssa
+bootsracp 
+java Script 
+
+Spring 
+Spring Boot
+
+
+
+STS : https://spring.io/tools
+Post Man :https://www.postman.com/downloads/
+Node JS : https://nodejs.org/dist/v12.13.0/node-v12.13.0-x64.msi
+
+
+
+
+
+
+html 						HTML /CSS/JS 				HTML CSS JS / Angualr 
+css
+js
+
+
+
+
+Servlert					Spring MVC 				Spring boot  
+jsp 	
+
+
+
+		JDBC 						Hibernate			JPA  
+
+
+DB 						Data base 				Data Base 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
