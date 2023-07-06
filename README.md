@@ -1,5 +1,5 @@
 # IGTSolutions
-## <JAVA TRAINING>
+# JAVA TRAINING
 
 ## Description
 
